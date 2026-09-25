@@ -576,7 +576,7 @@ button {
 }
 
 /* The official artwork supplies the logo and its original texture without redrawing it. */
-.brand { gap: 8px; }
+.brand { gap: 8px; align-items: center; }
 .brand-event {
   width: 82px;
   height: 44px;
@@ -626,3 +626,5 @@ button:focus-visible, .event-card:focus-visible { outline: 2px solid white; outl
   .event-title { font-size: 20px; }
   .event-note, .event-vj { font-size: 12px; }
 }
+
+.event-content { display: flex; flex: 1 1 auto; flex-direction: column; justify-content: center; gap: 4px; min-width: 0; }

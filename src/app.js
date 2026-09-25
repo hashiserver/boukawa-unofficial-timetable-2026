@@ -133,8 +133,10 @@ function makeEventCard(event) {
   titleRow.append(title);
   for (const badge of event.badges || []) titleRow.append(makeElement("span", "event-badge", badge));
 
-  card.append(meta, titleRow);
-  if (event.note) card.append(makeElement("p", "event-note", event.note));
+  const content = makeElement("div", "event-content");
+  content.append(titleRow);
+  if (event.note) content.append(makeElement("p", "event-note", event.note));
+  card.append(meta, content);
   card.append(makePinMark());
   addCardStatus(card, event);
   card.setAttribute("aria-label", formatEventLabel(event, getEventStatus(event, currentNow)));
