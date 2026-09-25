@@ -1,0 +1,128 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-09-26",
+      "label": "DAY.1 / 9.26",
+      "floors": [
+        {
+          "floor": 1,
+          "name": "FLOOR 1",
+          "events": [
+            { "id": "d1-f1-1230", "start": "12:30", "end": "13:15", "artist": "Batsu", "vj": ["shinjiranger"] },
+            { "id": "d1-f1-1315", "start": "13:15", "end": "14:00", "artist": "TEMPLIME", "vj": ["shinjiranger"] },
+            { "id": "d1-f1-1400", "start": "14:00", "end": "14:45", "artist": "Tomggg × Hercelot × yuigot", "vj": ["ムラタナナ"] },
+            { "id": "d1-f1-1445", "start": "14:45", "end": "15:10", "artist": "YUC'e", "vj": ["ムラタナナ"] },
+            { "id": "d1-f1-1510", "start": "15:10", "end": "15:35", "artist": "Neko Hacker", "vj": ["jotaka"], "note": "feat. をとは" },
+            { "id": "d1-f1-1535", "start": "15:35", "end": "16:20", "artist": "PSYQUI", "vj": ["Syoronpo."] },
+            { "id": "d1-f1-1620", "start": "16:20", "end": "16:45", "artist": "TORIENA", "vj": ["poifull"] },
+            { "id": "d1-f1-1645", "start": "16:45", "end": "17:30", "artist": "Yunomi&Nichika", "vj": ["Syoronpo."] },
+            { "id": "d1-f1-1730", "start": "17:30", "end": "18:00", "artist": "水槽", "vj": ["poifull"] },
+            { "id": "d1-f1-1800", "start": "18:00", "end": "18:30", "artist": "KMNZ", "vj": ["poifull"] },
+            { "id": "d1-f1-1830", "start": "18:30", "end": "19:15", "artist": "kz (livetune)", "vj": ["Naohiro Yako"] },
+            { "id": "d1-f1-1915", "start": "19:15", "end": "19:45", "artist": "lilbesh ramko", "vj": ["tsuchifumazu"] },
+            { "id": "d1-f1-1945", "start": "19:45", "end": "20:30", "artist": "Ujico* × KOTONOHOUSE", "vj": ["shinjiranger", "haquxx"], "badges": ["B2B"] }
+          ]
+        },
+        {
+          "floor": 2,
+          "name": "FLOOR 2",
+          "events": [
+            { "id": "d1-f2-1230", "start": "12:30", "end": "13:15", "artist": "Alicemetix", "vj": ["mønobright"] },
+            { "id": "d1-f2-1315", "start": "13:15", "end": "14:00", "artist": "NEXTLIGHT", "vj": ["chlumi"], "note": "(Reno, picco, purini, Mi7s3, 倉重みつき)" },
+            { "id": "d1-f2-1400", "start": "14:00", "end": "14:45", "artist": "higma", "vj": ["poifull"] },
+            { "id": "d1-f2-1445", "start": "14:45", "end": "15:30", "artist": "Hylen & Friends", "vj": ["mønobright"], "note": "(ナナヲアカリ, 水槽, 東京電脳 from 電音部)" },
+            { "id": "d1-f2-1530", "start": "15:30", "end": "15:55", "artist": "中村さんそ", "vj": ["RakuLogic"] },
+            { "id": "d1-f2-1555", "start": "15:55", "end": "16:20", "artist": "utumiyqcom", "vj": ["RakuLogic"] },
+            { "id": "d1-f2-1620", "start": "16:20", "end": "17:05", "artist": "momone & curren", "vj": ["RakuLogic"], "note": "(revenge act)" },
+            { "id": "d1-f2-1705", "start": "17:05", "end": "17:30", "artist": "nyamura", "vj": ["osirasekita"] },
+            { "id": "d1-f2-1730", "start": "17:30", "end": "17:55", "artist": "嚩ᴴᴬᴷᵁ", "vj": ["osirasekita"] },
+            { "id": "d1-f2-1755", "start": "17:55", "end": "18:40", "artist": "HEAVEN'S GATE CREW", "vj": ["LAKU"] },
+            { "id": "d1-f2-1840", "start": "18:40", "end": "19:05", "artist": "HONK THE HORN", "vj": ["LAKU"] },
+            { "id": "d1-f2-1905", "start": "19:05", "end": "19:30", "artist": "LanPage", "vj": ["osirasekita"] },
+            { "id": "d1-f2-1930", "start": "19:30", "end": "20:30", "artist": "Generation Z", "vj": ["chlumi"], "note": "(gaburyu, nyankobrq, Yaca, Alicemetix, picco, yuigot, higma, 前澤, icesawder)" }
+          ]
+        },
+        {
+          "floor": 3,
+          "name": "FLOOR 3",
+          "events": [
+            { "id": "d1-f3-1200", "start": "12:00", "end": "12:45", "artist": "玲音 × nyankobrq", "badges": ["B2B"] },
+            { "id": "d1-f3-1245", "start": "12:45", "end": "13:30", "artist": "muyu" },
+            { "id": "d1-f3-1330", "start": "13:30", "end": "14:15", "artist": "Capchii" },
+            { "id": "d1-f3-1415", "start": "14:15", "end": "15:00", "artist": "なみぐる" },
+            { "id": "d1-f3-1500", "start": "15:00", "end": "15:45", "artist": "zensen" },
+            { "id": "d1-f3-1545", "start": "15:45", "end": "16:30", "artist": "SEE" },
+            { "id": "d1-f3-1630", "start": "16:30", "end": "17:15", "artist": "ど〜ぱみん" },
+            { "id": "d1-f3-1715", "start": "17:15", "end": "18:00", "artist": "KAIRUI" },
+            { "id": "d1-f3-1800", "start": "18:00", "end": "18:45", "artist": "Osaka Melty", "note": "(Qu-l2in, AkkeY, FAIZ)" },
+            { "id": "d1-f3-1845", "start": "18:45", "end": "19:30", "artist": "Mikazuki Bigwave" },
+            { "id": "d1-f3-1930", "start": "19:30", "end": "20:30", "artist": "GEKIYABA GEKIKAWA GANG", "note": "(R1cefarm, Ray_Oh, RENKA chan, Kocyamarü, uncalc, 多々良ゆら, 天乃おつげ)" }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-09-27",
+      "label": "DAY.2 / 9.27",
+      "floors": [
+        {
+          "floor": 1,
+          "name": "FLOOR 1",
+          "events": [
+            { "id": "d2-f1-1230", "start": "12:30", "end": "13:15", "artist": "前澤", "vj": ["poifull"] },
+            { "id": "d2-f1-1315", "start": "13:15", "end": "14:00", "artist": "picco", "vj": ["chlumi"], "note": "with きあと" },
+            { "id": "d2-f1-1400", "start": "14:00", "end": "14:45", "artist": "Snail's House", "vj": ["shinjiranger"] },
+            { "id": "d2-f1-1445", "start": "14:45", "end": "15:15", "artist": "Nor", "vj": ["shinjiranger"], "badges": ["LIVE SET"] },
+            { "id": "d2-f1-1515", "start": "15:15", "end": "16:00", "artist": "Yunomi&Nichika", "vj": ["poifull"] },
+            { "id": "d2-f1-1600", "start": "16:00", "end": "16:30", "artist": "KOTONOHOUSE", "vj": ["haquxx"], "badges": ["LIVE SET"] },
+            { "id": "d2-f1-1630", "start": "16:30", "end": "17:00", "artist": "BPM15Q", "vj": ["Q昆"] },
+            { "id": "d2-f1-1700", "start": "17:00", "end": "17:45", "artist": "TeddyLoid", "vj": ["haquxx"] },
+            { "id": "d2-f1-1745", "start": "17:45", "end": "18:30", "artist": "TAKU INOUE", "vj": ["Naohiro Yako"] },
+            { "id": "d2-f1-1830", "start": "18:30", "end": "19:00", "artist": "YUC'e", "vj": ["chlumi"] },
+            { "id": "d2-f1-1900", "start": "19:00", "end": "19:45", "artist": "PSYQUI", "vj": ["osirasekita"], "note": "feat. 音ノ乃のの" },
+            { "id": "d2-f1-1945", "start": "19:45", "end": "20:30", "artist": "Batsu", "vj": ["osirasekita"] }
+          ]
+        },
+        {
+          "floor": 2,
+          "name": "FLOOR 2",
+          "events": [
+            { "id": "d2-f2-1230", "start": "12:30", "end": "13:15", "artist": "TAKUYA the bringer", "vj": ["RakuLogic"] },
+            { "id": "d2-f2-1315", "start": "13:15", "end": "14:00", "artist": "Invaders", "vj": ["LAKU"], "note": "(FAIZ, Ichii, Marble, Nemonoika, sibitto, Ziema, LAKU, PY-2, Shu.)" },
+            { "id": "d2-f2-1400", "start": "14:00", "end": "14:25", "artist": "雨宮みやび", "vj": ["RakuLogic"] },
+            { "id": "d2-f2-1425", "start": "14:25", "end": "14:50", "artist": "Eye", "vj": ["RakuLogic"] },
+            { "id": "d2-f2-1450", "start": "14:50", "end": "15:35", "artist": "kamome sano", "vj": ["Syoronpo."] },
+            { "id": "d2-f2-1535", "start": "15:35", "end": "16:20", "artist": "MoeShop", "vj": ["Syoronpo."] },
+            { "id": "d2-f2-1620", "start": "16:20", "end": "17:05", "artist": "DÉ DÉ MOUSE & 長瀬有花", "vj": ["ムラタナナ"] },
+            { "id": "d2-f2-1705", "start": "17:05", "end": "17:50", "artist": "Aiobahn +81", "vj": ["業者"] },
+            { "id": "d2-f2-1750", "start": "17:50", "end": "18:15", "artist": "VESPERBELL", "vj": ["LAKU"] },
+            { "id": "d2-f2-1815", "start": "18:15", "end": "18:40", "artist": "Marpril", "vj": ["mønobright"] },
+            { "id": "d2-f2-1840", "start": "18:40", "end": "19:05", "artist": "yosumi", "vj": ["mønobright"] },
+            { "id": "d2-f2-1905", "start": "19:05", "end": "19:30", "artist": "ワニとコウモリ", "vj": ["chaosgroove"] },
+            { "id": "d2-f2-1930", "start": "19:30", "end": "20:30", "artist": "DJ WILDPARTY", "vj": ["ムラタナナ"] }
+          ]
+        },
+        {
+          "floor": 3,
+          "name": "FLOOR 3",
+          "events": [
+            { "id": "d2-f3-1200", "start": "12:00", "end": "12:45", "artist": "e2luck" },
+            { "id": "d2-f3-1245", "start": "12:45", "end": "13:25", "artist": "anoueo" },
+            { "id": "d2-f3-1325", "start": "13:25", "end": "14:10", "artist": "天野名雪" },
+            { "id": "d2-f3-1410", "start": "14:10", "end": "14:50", "artist": "あぽろ" },
+            { "id": "d2-f3-1450", "start": "14:50", "end": "15:30", "artist": "RuuChan" },
+            { "id": "d2-f3-1530", "start": "15:30", "end": "16:10", "artist": "naePi-YO" },
+            { "id": "d2-f3-1610", "start": "16:10", "end": "16:50", "artist": "IQYU" },
+            { "id": "d2-f3-1650", "start": "16:50", "end": "17:30", "artist": "D.watt" },
+            { "id": "d2-f3-1730", "start": "17:30", "end": "18:10", "artist": "X♡coisioringoX♡" },
+            { "id": "d2-f3-1810", "start": "18:10", "end": "18:50", "artist": "colate" },
+            { "id": "d2-f3-1850", "start": "18:50", "end": "19:35", "artist": "DJ Heero Yuy" },
+            { "id": "d2-f3-1935", "start": "19:35", "end": "20:30", "artist": "神と和解せよ" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#071449" />
+    <meta name="description" content="暴力的にカワイイ 2026 の非公式タイムスケジュール。FLOOR 1〜3の進行とピンした公演をスマートフォンで確認できます。" />
+    <title>暴力的にカワイイ 非公式タイムスケジュール</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/bootstrap.js"></script>
+  </head>
+  <body>
+    <noscript>このタイムスケジュールを使うにはJavaScriptを有効にしてください。</noscript>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand" aria-label="暴力的にカワイイ 非公式タイムスケジュール">
+          <span class="brand-event" aria-hidden="true">暴力的にカワイイ</span>
+          <h1><span class="live-region">暴力的にカワイイ </span>非公式タイムスケジュール</h1>
+        </div>
+        <span class="unofficial-mark">UNOFFICIAL</span>
+      </header>
+
+      <nav class="day-switch" aria-label="開催日">
+        <button class="day-button" type="button" data-day="1" aria-pressed="false">
+          <span>DAY.1</span><time datetime="2026-09-26">9.26</time>
+        </button>
+        <button class="day-button" type="button" data-day="2" aria-pressed="false">
+          <span>DAY.2</span><time datetime="2026-09-27">9.27</time>
+        </button>
+      </nav>
+
+      <section class="pinned-summary" id="pinned-summary" aria-live="polite" aria-label="ピンした公演" hidden></section>
+
+      <main tabindex="0" class="schedule-scroller" id="schedule-scroller" aria-label="タイムテーブル">
+        <div class="timeline" id="timeline">
+          <div class="floor-header" id="floor-header" aria-hidden="true">
+            <span class="time-head"></span>
+            <span class="floor-name floor-one">FLOOR 1</span>
+            <span class="floor-name floor-two">FLOOR 2</span>
+            <span class="floor-name floor-three">FLOOR 3</span>
+          </div>
+          <div class="timeline-body" id="timeline-body"><p>読み込み中…</p></div>
+        </div>
+      </main>
+
+      <button class="now-button" id="now-button" type="button" hidden>NOWへ</button>
+      <div class="live-region" id="live-region" aria-live="polite" aria-atomic="true"></div>
+    </div>
+  </body>
+</html>
