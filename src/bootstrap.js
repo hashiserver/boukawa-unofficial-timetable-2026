@@ -1,4 +1,4 @@
-import('./app.js?v=20260925-2').catch(error => {
+import('./app.js?v=20260925-3').catch(error => {
   console.error(error);
   const area = document.querySelector('#timeline-body');
   area.classList.add('load-error');

@@ -628,3 +628,29 @@ button:focus-visible, .event-card:focus-visible { outline: 2px solid white; outl
 }
 
 .event-content { display: flex; flex: 1 1 auto; flex-direction: column; justify-content: center; gap: 4px; min-width: 0; }
+
+.intro-dialog {
+  width: min( calc(100% - 32px), 380px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 22px 20px 20px;
+  overflow-y: auto;
+  border: 1px solid #8eece5;
+  border-radius: 16px;
+  background: #101b42;
+  color: #fff;
+  box-shadow: 0 16px 60px #0008;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.intro-dialog::backdrop { background: #02081dbc; }
+.intro-dialog h2 { margin: 0 0 14px; font-size: 20px; }
+.intro-notice { color: #f6a5ef; font-weight: 800; margin: 0 0 10px; }
+.intro-description { color: #d8deed; font-size: 12px; margin: 0; }
+.intro-dialog ul { padding-left: 20px; margin: 18px 0; }
+.intro-dialog li + li { margin-top: 10px; }
+.intro-start {
+  width: 100%; min-height: 44px; padding: 10px; border: 0; border-radius: 8px;
+  background: linear-gradient(105deg, var(--floor-one), var(--floor-two));
+  color: var(--ink); font-weight: 800; cursor: pointer;
+}

@@ -1,3 +1,4 @@
+import { showIntroOnce } from "./intro.js";
 const scheduleResponse = await fetch(new URL("../data/schedule.json", import.meta.url));
 if (!scheduleResponse.ok) throw new Error(`Schedule data could not be loaded (${scheduleResponse.status}).`);
 const scheduleData = await scheduleResponse.json();
@@ -377,3 +378,5 @@ window.addEventListener("storage", (event) => {
 
 renderDay(selectedDay, { jumpToCurrent: true });
 window.setInterval(refreshClockState, 15_000);
+
+showIntroOnce();
