@@ -654,3 +654,13 @@ button:focus-visible, .event-card:focus-visible { outline: 2px solid white; outl
   background: linear-gradient(105deg, var(--floor-one), var(--floor-two));
   color: var(--ink); font-weight: 800; cursor: pointer;
 }
+.intro-warning {
+  margin: 14px 0 0;
+  padding: 10px 11px;
+  border: 1px solid rgba(255, 228, 94, 0.72);
+  border-radius: 8px;
+  color: #fff5b0;
+  background: rgba(93, 68, 25, 0.42);
+  font-size: 12px;
+  line-height: 1.55;
+}
