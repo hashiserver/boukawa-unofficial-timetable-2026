@@ -40,7 +40,7 @@
             { "id": "d1-f2-1755", "start": "17:55", "end": "18:40", "artist": "HEAVEN'S GATE CREW", "vj": ["LAKU"] },
             { "id": "d1-f2-1840", "start": "18:40", "end": "19:05", "artist": "HONK THE HORN", "vj": ["LAKU"] },
             { "id": "d1-f2-1905", "start": "19:05", "end": "19:30", "artist": "LanPage", "vj": ["osirasekita"] },
-            { "id": "d1-f2-1930", "start": "19:30", "end": "20:30", "artist": "Generation Z", "vj": ["chlumi"], "note": "(gaburyu, nyankobrq, Yaca, Alicemetix, picco, yuigot, higma, 前澤, icesawder)" }
+            { "id": "d1-f2-1930", "start": "19:30", "end": "20:15", "artist": "Generation Z", "vj": ["chlumi"], "note": "(gaburyu, nyankobrq, Yaca, Alicemetix, picco, yuigot, higma, 前澤, icesawder)" }
           ]
         },
         {
@@ -57,7 +57,7 @@
             { "id": "d1-f3-1715", "start": "17:15", "end": "18:00", "artist": "KAIRUI" },
             { "id": "d1-f3-1800", "start": "18:00", "end": "18:45", "artist": "Osaka Melty", "note": "(Qu-l2in, AkkeY, FAIZ)" },
             { "id": "d1-f3-1845", "start": "18:45", "end": "19:30", "artist": "Mikazuki Bigwave" },
-            { "id": "d1-f3-1930", "start": "19:30", "end": "20:30", "artist": "GEKIYABA GEKIKAWA GANG", "note": "(R1cefarm, Ray_Oh, RENKA chan, Kocyamarü, uncalc, 多々良ゆら, 天乃おつげ)" }
+            { "id": "d1-f3-1930", "start": "19:30", "end": "20:15", "artist": "GEKIYABA GEKIKAWA GANG", "note": "(R1cefarm, Ray_Oh, RENKA chan, Kocyamarü, uncalc, 多々良ゆら, 天乃おつげ)" }
           ]
         }
       ]
@@ -101,7 +101,7 @@
             { "id": "d2-f2-1815", "start": "18:15", "end": "18:40", "artist": "Marpril", "vj": ["mønobright"] },
             { "id": "d2-f2-1840", "start": "18:40", "end": "19:05", "artist": "yosumi", "vj": ["mønobright"] },
             { "id": "d2-f2-1905", "start": "19:05", "end": "19:30", "artist": "ワニとコウモリ", "vj": ["chaosgroove"] },
-            { "id": "d2-f2-1930", "start": "19:30", "end": "20:30", "artist": "DJ WILDPARTY", "vj": ["ムラタナナ"] }
+            { "id": "d2-f2-1930", "start": "19:30", "end": "20:15", "artist": "DJ WILDPARTY", "vj": ["ムラタナナ"] }
           ]
         },
         {
@@ -119,7 +119,7 @@
             { "id": "d2-f3-1730", "start": "17:30", "end": "18:10", "artist": "X♡coisioringoX♡" },
             { "id": "d2-f3-1810", "start": "18:10", "end": "18:50", "artist": "colate" },
             { "id": "d2-f3-1850", "start": "18:50", "end": "19:35", "artist": "DJ Heero Yuy" },
-            { "id": "d2-f3-1935", "start": "19:35", "end": "20:30", "artist": "神と和解せよ" }
+            { "id": "d2-f3-1935", "start": "19:35", "end": "20:15", "artist": "神と和解せよ" }
           ]
         }
       ]

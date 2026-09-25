@@ -1,3 +1,4 @@
+import { getEventStatus, getPinnedSummary } from "../src/schedule.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
@@ -21,7 +22,7 @@ test("both event days contain all three floors and every transcribed performance
   }
 });
 
-test("each show ends at the next start on its floor and each floor ends at 20:30", () => {
+test("each show ends at the next start on its floor and final slots match the official floor end times", () => {
   for (const day of data.days) {
     for (const floor of day.floors) {
       const events = floor.events;
@@ -29,7 +30,7 @@ test("each show ends at the next start on its floor and each floor ends at 20:30
       for (let index = 0; index < events.length - 1; index += 1) {
         assert.equal(events[index].end, events[index + 1].start);
       }
-      assert.equal(events.at(-1).end, "20:30");
+      assert.equal(events.at(-1).end, floor.floor === 1 ? "20:30" : "20:15");
     }
   }
 });
@@ -41,4 +42,18 @@ test("every performance has a stable unique pin identifier and source notes rema
   assert.ok(events.some(({ artist, note }) => artist === "Neko Hacker" && note === "feat. をとは"));
   assert.ok(events.some(({ artist, badges = [] }) => artist === "KOTONOHOUSE" && badges.includes("LIVE SET")));
   assert.ok(events.some(({ artist, badges }) => artist === "玲音 × nyankobrq" && badges.includes("B2B")));
+});
+
+
+test("at 20:15 both days end floors 2/3 while floor 1 remains live", () => {
+  for (const day of data.days) {
+    const events = day.floors.map(floor => ({...floor.events.at(-1), day:day.day, floor:floor.floor}));
+    const before = new Date(`${day.date}T20:14:59+09:00`);
+    const boundary = new Date(`${day.date}T20:15:00+09:00`);
+    assert.deepEqual(events.map(e=>getEventStatus(e,before)), ["live","live","live"]);
+    assert.deepEqual(events.map(e=>getEventStatus(e,boundary)), ["live","finished","finished"]);
+    const summary = getPinnedSummary(events,new Set(events.map(e=>e.id)),boundary);
+    assert.deepEqual(summary.now.map(e=>e.floor),[1]);
+    assert.deepEqual(summary.next,[]);
+  }
 });
