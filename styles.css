@@ -664,3 +664,14 @@ button:focus-visible, .event-card:focus-visible { outline: 2px solid white; outl
   font-size: 12px;
   line-height: 1.55;
 }
+
+.intro-contact-note {
+  margin: 10px 0 0;
+  padding: 10px 11px;
+  border: 1px solid rgba(142, 236, 229, 0.52);
+  border-radius: 8px;
+  color: #e4f6f7;
+  background: rgba(31, 70, 92, 0.34);
+  font-size: 12px;
+  line-height: 1.55;
+}

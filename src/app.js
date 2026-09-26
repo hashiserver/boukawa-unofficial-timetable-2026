@@ -1,4 +1,4 @@
-import { showIntroOnce } from "./intro.js";
+import { showIntroOnce } from "./intro.js?v=20260926-3";
 const scheduleResponse = await fetch(new URL("../data/schedule.json?v=20260925-4", import.meta.url));
 if (!scheduleResponse.ok) throw new Error(`Schedule data could not be loaded (${scheduleResponse.status}).`);
 const scheduleData = await scheduleResponse.json();

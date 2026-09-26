@@ -1,4 +1,4 @@
-const INTRO_STORAGE_KEY = 'bou-kwai-timetable:intro-seen:v1';
+const INTRO_STORAGE_KEY = 'bou-kwai-timetable:intro-seen:v2';
 
 export function showIntroOnce() {
   try {
